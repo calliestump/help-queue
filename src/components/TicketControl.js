@@ -26,7 +26,7 @@ class TicketControl extends React.Component {
       this.setState({
         formVisibleOnPage: false,
         selectedTicket: null,
-        editing: false // new code
+        editing: false 
       });
     } else {
       this.setState(prevState => ({
